@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio  Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c298899e5c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="Images/logo22.png" class="logo">
+        <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfoglio">Portfolio </a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI Designer&Test Automation Engineer</p>
+            <h1>Pershendetje<br> un jam <span>Gazmir</span> Sezairi</h1>
+        </div>
+    </div>
+    </div>
+   <!-- -----------------about-section----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-colum-1">
+                    <img src="Images/Cv-p.jpg">
+                </div>
+                <div class="about-colum-2">
+                    <h1 class='subtitle'>About Me</h1>
+                    <p>I'm a passionate and results-driven engineer with a strong
+                        foundation in Test Automation Engineering and Front-End
+                        Development.With a portfolio that includes a test 
+                        automation project and a professional resume web page,
+                        As a Test Automation Engineer , I have experience designing
+                         and implementing automated testing frameworks , I take pride
+                          in crafting this user-friendly and visually appealing web 
+                          interface, utilizing HTML, CSS, and JavaScript.</p>
+                          
+                          <div class="tab-titles">
+                            <p class= "tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class= "tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class= "tab-links" onclick="opentab('Education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li> <span> Test Automation</span> <br>Designing and implementing automated testing framework</li>
+                                <li><span>Web Deelopement</span> <br>Designing Web/App interface</li>
+                                <li><span>Web Deelopement</span> <br>Designing Web/App interface</li>
+                                <li><span>Web Deelopement</span> <br>Designing Web/App interface</li>
+
+                            </ul>
+                          </div>    
+                          <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li> <span>10/2013 – 01/2017</span> <br>Managing and supporting the team, Managing client issues, Supervising the client service agents, Daily reports regarding the team
+                                    performance, On boarding the new agents. <br>Designing
+                                    and implementing automated testing framework</li>
+                                <li><span>Manual Tester</span> <br>Reproducing functional, content and visual manual testing of new
+                                    software in both the pre- and post-release stage of the development
+                                    life cycle.</li>
+                                    <li><span>08/2023 – 09/2023</span> <br>Test Automation project "the-internet.herokuapp.com"</li>
+                                    <li><span>10/2023 – 11/2023</span> <br>Designing Web/App interface</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="Education">
+                            <ul>
+                                <li> <span>06/2023 -08/2023</span> <br>Setting a Foundation for Successful Test Automation online course @TAU</li>
+                                 <li><span>06/2023 –08/2023</span> <br>Learning the Manual Software testing work flow as well as Test Rail, Jira, Selenium IDE, MySQL,
+                                        basics for Test Automation Selenium Web Driver @SDA by Protik </li>
+                                        <li> <span>10/2010-07/2014</span> <br>Computer Engineering Albanian UniversitComputer Engineering Albanian University</li>
+                                        <li><span>02/2022 -09/2022</span> <br>Learned the basics of programming with Python,6H online course by By Mosh Hamedani </li>
+                                        <li><span>06/2021 -10/2021</span> <br>Learned the basics of programming with Java.,6H online course by Mosh Hamedani </li>
+                                    </ul>
+                          </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------services section----------  -->
+    <div id="services">
+        <div class="container">
+            <h1 class='subtitle'>My Services</h1>
+            <div class="sevices-list">
+                <div>
+                    <h2><i class="fa-solid fa-code"></i>  Web Design</h2>
+                    <p>This personal portfolio website not only 
+                        demonstrates my technical abilities but 
+                        also reflects my passion for web development 
+                        and commitment to self-improvement. It's a living 
+                        project that I'm excited to expand and refine as I 
+                        advance in my career as a Front-End Developer.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2><i class="fa-brands fa-app-store-ios"></i>  App Design</h2>
+                    <p>I recently created my own 
+                        personal portfolio website to showcase 
+                        my burgeoning skills and projects in 
+                        web development. This website serves 
+                        as a testament to my commitment to continuous 
+                        learning and my dedication to creating visually 
+                        appealing and user-friendly app experiences.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-crop"></i>  Test Automation</h2>
+                    <p>TAs a novice in the field of Test Automation, 
+                        I undertook a hands-on project to gain practical 
+                        experience and proficiency in test automation 
+                        techniques and tools. The project was designed 
+                        to demonstrate my ability to create and execute 
+                        automated test scripts for enhancing software 
+                        quality and efficiency.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------portfoglio section----------->
+
+    <div id="portfoglio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work.jpg" >
+                    <div class="layer">
+                        <h3>Web/App Project</h3>
+                        <p>Successfully completed a beginner-level 
+                            web app project that demonstrates my 
+                            foundational skills in web development.
+                            The project is a [Personal portfolio website],
+                            built using [HTML, CSS, JavaScript]. 
+                            It showcases my ability to create a web 
+                            application and represents the beginning 
+                            of my journey as a web developer.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="Images/work2.jpg" >
+                    <div class="layer">
+                        <h3>Test Automation Project</h3>
+                        <p>I have completed a foundational test automation 
+                            project as a beginner, demonstrating my ability 
+                            to design and execute automated test scripts 
+                            using [Selenium WebDriver, Java]. The project 
+                            focused on automating [the-internet.herokuapp.com], 
+                            resulting in improved testing efficiency. 
+                            This project marks the beginning of my journey into 
+                            the field of test automation.</p>
+                        <a href="https://github.com/GaxiSz/First-project_The-internet.com"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">See More</a>
+
+        </div>
+    </div>
+    <!-- -------------contact section----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> gazmirsezairi@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i> +355 693588828</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/CV-GazmirSezairi.pdf" download  class="button button2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button button2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Gazmir Sezairi 2023</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <!-----------JS FOR SMALL SCREEN---------  -->
+    <script>
+        var sideMenu = document.getElementById("sideMenu");
+
+        function openmenu(){
+            sideMenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwgbbtX934oPxErW4NKFMWk3218TKc6p5CQqhsLtfCf1Ton6DbFjcQn99YSEcivnk5PEA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succsessfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
